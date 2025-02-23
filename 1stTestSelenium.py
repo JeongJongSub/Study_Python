@@ -15,6 +15,9 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
+
+
+
 # 이건 뭐지?
 from selenium.webdriver.common.keys import Keys
 
