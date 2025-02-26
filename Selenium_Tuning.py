@@ -66,6 +66,11 @@ def hira_health():
                 hospitals.append({'name': name, 'address': address})
 
         print(f"추출된 병원 정보 수: {len(hospitals)}")
+         # 콘솔에 뿌리기
+        for hospitalList in hospitals :
+            
+            print(hospitalList)
+
 
         if not hospitals:
             print("병원 정보를 추출하지 못했습니다. HTML 구조가 변경되었을 수 있습니다.")
@@ -78,6 +83,9 @@ def hira_health():
             writer.writeheader()
             if hospitals:
                 writer.writerows(hospitals)
+        
+       
+
 
     except TimeoutException as e:
         print('찾는 요소가 없어요:', e)
