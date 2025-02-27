@@ -1,5 +1,8 @@
 # 셀레니엄으로 크롬자동화를 만들기
 # 먼저 콘다를 설치해야하네(파이참으로 어떻게 되긴하는데)
+#% 깃허브야 잘좀 돼라
+
+
 '''
 import selenium
 from selenium import webdriver
